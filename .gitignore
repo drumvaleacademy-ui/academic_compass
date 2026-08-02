@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Build outputs
+dist/
+*.tsbuildinfo
+
+# Local DB / runtime data
+*.sqlite
+data/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.*
+pnpm-debug.*
+
+# Replit local tooling (large, not needed on GitHub)
+.local/
