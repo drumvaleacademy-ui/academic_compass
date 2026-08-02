@@ -1,0 +1,9 @@
+{
+  "framework": null,
+  "installCommand": "cd Academic-Compass && pnpm install",
+  "buildCommand": "cd Academic-Compass && pnpm --filter @workspace/academic-compass run build",
+  "outputDirectory": "Academic-Compass/artifacts/academic-compass/dist/public",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
